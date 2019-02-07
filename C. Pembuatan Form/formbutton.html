@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+  </head>
+  <body>
+    <script language="Javascript">
+      function ubahWarnaLB(warna) {
+        document.bgColor = warna;
+      }
+      function ubahWarnaLD(warna) {
+        document.fgColor = warna;
+      }
+    </script>
+
+    <h1>TEST</h1>
+      <form>
+        <input type="button" value="Latar Belakang Hijau" onClick="ubahWarnaLB('green')">
+        <input type="button" value="Latar Belakang Putih" onClick="ubahWarnaLB('white')">
+        <input type="button" value="Latar Belakang Salem" onClick="ubahWarnaLB('salmon')">
+        <input type="button" value="Teks Kuning" onClick="ubahWarnaLD('yellow')">
+        <input type="button" value="Teks Biru" onClick="ubahWarnaLD('blue')">
+        <input type="button" value="Teks Silver" onClick="ubahWarnaLD('silver')">
+      </form>
+
+      <script language="Javascript">
+        document.write("Dimodifikasi terakhir pada "+document.lastModified);
+      </script>
+
+  </body>
+</html>
